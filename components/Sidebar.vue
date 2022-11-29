@@ -5,14 +5,14 @@
         <div id="sidebar-menu" class="sidebar-menu">
           <ul>
             <li class="active">
-              <a href="index.html">
-                <img src="#" alt="img">
+              <nuxt-link to="/">
+                <img src="~assets/img/icons/dashboard.svg" alt="img">
                 <span> Dashboard</span>
-              </a>
+              </nuxt-link>
             </li>
             <li class="submenu">
               <a href="javascript:void(0);">
-                <img src="#" alt="img">
+                <img src="~assets/img/icons/product.svg" alt="img">
                 <span> Product</span>
                 <span class="menu-arrow"></span>
               </a>
@@ -45,7 +45,7 @@
                   <a href="importproduct.html">Import Products</a>
                 </li>
                 <li>
-                  <a href="barcode.html">Print Barcode</a>
+                  <a href="barcode.html">Print Barcode <i class="fa-solid fa-phone"></i></a>
                 </li>
               </ul>
             </li>
